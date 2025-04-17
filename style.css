@@ -1,0 +1,171 @@
+        @charset "UTF-8";
+        @font-face {
+            font-family: hv;
+            src: url("fontes/hv.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: id;
+            src: url("fontes/idroid.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #84E0AD;
+            max-width: 100%;
+        }
+        
+        header {
+            background-image: linear-gradient(to bottom, #36c575, #195d36);
+            height: 125px;
+            padding-left: 10px;
+            box-shadow: 1px 1px 5px black;
+        }
+        
+        header>h1 {
+            font-weight: lighter;
+            text-align: center;
+            font-family: hv;
+            color: white;
+            font-size: 50px;
+        }
+        
+        header>P {
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 10px;
+            color: antiquewhite;
+        }
+        
+        #principal {
+            margin: auto;
+            max-width: 800px;
+            width: 90%;
+            background-color: white;
+            box-shadow: 1px 1px 5px black;
+        }
+        
+        nav>a {
+            color: whitesmoke;
+            text-decoration: none;
+            position: relative;
+            top: 16px;
+            padding-right: 15px;
+            display: inline-block;
+        }
+        
+        .titulo,
+        h2 {
+            font-family: id;
+            color: #497D60;
+        }
+        
+        #principal>div>p {
+            text-indent: 25px;
+        }
+        
+        #principal>div>h2 {
+            background-image: linear-gradient(to right, #73c497, #fff);
+        }
+        
+        img {
+            display: block;
+            margin: auto;
+            width: 100%;
+        }
+        
+        .video {
+            background-color: #195d36;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .div1 {
+            padding: 20px;
+        }
+        
+        .lista {
+            background-color: #a1ecc3;
+            max-width: 800px;
+            height: 100%;
+            margin: auto;
+            border-radius: 15px;
+            padding: px;
+            box-shadow: 1px 1px 5px black;
+            width: 96%;
+            padding-bottom: 15px;
+        }
+        
+        .lista1 {
+            display: flex;
+            gap: 160px;
+            font-size: 12px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            color: black;
+        }
+        
+        a {
+            color: black;
+            font-weight: bolder;
+        }
+        
+        .lista>h3 {
+            margin: auto;
+            background-color: #39AB6D;
+            color: white;
+            height: 25px;
+            padding-top: 5px;
+            font-size: 15px;
+            padding-left: 8px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .lista>p {
+            text-align: c
+        }
+        
+        .utimo {
+            padding: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            height: 20px;
+            background-color: #195d36;
+            color: #fff;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+        
+        header a:hover {
+            background-color: #84E0AD;
+            border-radius: 5px;
+            padding: 4px;
+            height: 18px;
+            font-size: 20px;
+            font-weight: bolder;
+            padding-bottom: 10px;
+        }
+        
+        .div1 a {
+            color: #195d36;
+        }
+        
+        .a1 {
+            color: #195d36;
+        }
