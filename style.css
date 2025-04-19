@@ -169,3 +169,9 @@
         .a1 {
             color: #195d36;
         }
+@media (max-width: 600px) {
+  nav li {
+    display: block;
+    margin: 5px 0;
+  }
+}
