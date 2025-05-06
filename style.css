@@ -124,7 +124,9 @@
 
             display: inline-block;
 
-        word-wrap: break-word;
+           word-wrap: break-word;
+          overflow-y: auto;
+           white-space: nowrap;
 
         }
 
